@@ -1,0 +1,152 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  color: #222;
+}
+
+/* Navbar */
+nav {
+  position: sticky;
+  top: 0;
+  background: #1d3557;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e63946;
+}
+
+/* Header */
+header {
+  background: #e63946;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.3rem;
+}
+
+/* Sections */
+section {
+  padding: 3rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #1d3557;
+}
+
+/* Awareness Section */
+.awareness {
+  background: #f1faee;
+  border-top: 5px solid #e63946;
+}
+
+.awareness ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+/* Healthy Alternatives */
+.alternatives {
+  background: #a8dadc;
+}
+
+.alternatives ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.alternatives li {
+  background: #06d6a0;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.alternatives li:hover {
+  transform: scale(1.05);
+}
+
+/* Testimonial Section */
+.testimonial {
+  background: #457b9d;
+  color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  font-style: italic;
+  margin: 2rem auto;
+}
+
+/* Join Us Section */
+.join-us {
+  background: #f1faee;
+  text-align: center;
+  padding: 2rem;
+  border: 2px solid #1d3557;
+  border-radius: 8px;
+}
+
+.join-us p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.join-us a {
+  color: #e63946;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.join-us a:hover {
+  color: #1d3557;
+}
+
+/* Footer */
+footer {
+  background: #1d3557;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
